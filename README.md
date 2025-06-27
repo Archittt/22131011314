@@ -17,7 +17,7 @@ This project is a production-ready **HTTP URL Shortener Microservice** built for
 ---
 
 ## 🗂Project Structure
-
+```
 BackendTestSubmission/
 ├── middleware/
 │   └── logger.js   
@@ -29,7 +29,7 @@ BackendTestSubmission/
 ├── server.js
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
@@ -55,7 +55,7 @@ BackendTestSubmission/
   "shortcode": "custom123"
 }
 ```
--- Response(201)
+- Response(201)
 ```json
 {
   "shortLink": "http://hostname:port/custom123",
