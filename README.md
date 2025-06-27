@@ -84,8 +84,7 @@ BackendTestSubmission/
       "timestamp": "2025-06-27T10:05:00Z",
       "referrer": "https://google.com",
       "location": "India"
-    },
-    ...
+    }
   ]
 }
 ```
@@ -115,5 +114,3 @@ POST http://20.244.56.144/evaluation-service/logs
 - In-memory storage used (DB hooks can be added later)
 - Valid URL and shortcode format checked server-side
 - Geolocation is mocked or approximated
-
-
