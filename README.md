@@ -18,17 +18,24 @@ This project is a production-ready **HTTP URL Shortener Microservice** built for
 
 ## 🗂Project Structure
 ```
+LoggingMiddleware/
+├── README.md
+├── logger.js
 BackendTestSubmission/
 ├── middleware/
 │   └── logger.js   
 ├── routes/
-├── controllers/
+|    └── shorturl.js
 ├── models/
+|    └── Click.js
+|    └── Url.js
 ├── utils/
-├── app.js
+|    └── generateCode.js
+├── log.txt
 ├── server.js
+├── package-lock.json
+├── package.json
 ├── .gitignore
-└── README.md
 ```
 
 ---
