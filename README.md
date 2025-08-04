@@ -1,6 +1,6 @@
 # URL Shortener Microservice (Backend)
 
-This project is a production-ready **HTTP URL Shortener Microservice** built for the Affordmed Backend Evaluation. It features core URL shortening functionality with link analytics and integrates a custom reusable logging middleware that communicates with the Affordmed logging server.
+This project is a production-ready **HTTP URL Shortener Microservice**. It features core URL shortening functionality with link analytics and integrates a custom reusable logging middleware.
 
 ---
 
