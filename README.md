@@ -96,28 +96,8 @@ BackendTestSubmission/
 }
 ```
 
-## Logging Middleware
-- This app uses a custom middleware to log all events to:
-```
-POST http://20.244.56.144/evaluation-service/logs
-```
-- Each log includes:
--- Stack (backend)
--- Level (info, error, etc.)
--- Package (middleware, handler, etc.)
--- Descriptive message
-
-- Middleware Paths
--- BackendTestSubmission/middleware/logger.js
-
 
 ## Screenshots
 ![Screenshot 2025-06-27 140458](https://github.com/user-attachments/assets/00216f66-e95e-4d03-9a11-b7a00c9452aa)
 ![Screenshot (8)](https://github.com/user-attachments/assets/0073a1f5-8f41-48ea-95e2-12e53ece41a5)
 ![Screenshot (9)](https://github.com/user-attachments/assets/abe6bd75-dc37-4b7a-a313-effb46e75659)
-
-## Assumptions
-- No user authentication (as per spec)
-- In-memory storage used (DB hooks can be added later)
-- Valid URL and shortcode format checked server-side
-- Geolocation is mocked or approximated
